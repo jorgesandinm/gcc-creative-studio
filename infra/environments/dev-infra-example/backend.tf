@@ -15,6 +15,6 @@
 terraform {
   backend "gcs" {
     bucket = "dia-es-creative-studio-poc-tfstate"
-    prefix = "infra"
+    prefix = "infra/poc/state"
   }
 }

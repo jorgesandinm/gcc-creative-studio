@@ -24,12 +24,12 @@ be_env_vars = {
   }
   development = {
     ENVIRONMENT  = "development"
-    GOOGLE_TOKEN_AUDIENCE = "545017040967-sp2u5s62seoks69guamsdcd63u42bb4v.apps.googleusercontent.com"
+    GOOGLE_TOKEN_AUDIENCE = "96526826575-4qpjmhtejru168dmtftc156vka2begcs.apps.googleusercontent.com"
     IDENTITY_PLATFORM_ALLOWED_ORGS = "" # If empty then any org is allowed
   }
   production = {
     ENVIRONMENT  = "production"
-    GOOGLE_TOKEN_AUDIENCE = "545017040967-sp2u5s62seoks69guamsdcd63u42bb4v.apps.googleusercontent.com"
+    GOOGLE_TOKEN_AUDIENCE = "96526826575-4qpjmhtejru168dmtftc156vka2begcs.apps.googleusercontent.com"
     IDENTITY_PLATFORM_ALLOWED_ORGS = "" # If empty then any org is allowed
   }
 }
