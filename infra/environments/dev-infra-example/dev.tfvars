@@ -1,4 +1,4 @@
-gcp_project_id = "YOUR_GCP_PROJECT_ID"
+gcp_project_id = "dia-es-creative-studio-poc"
 gcp_region     = "europe-southwest1"
 environment    = "development"
 
@@ -8,7 +8,7 @@ frontend_service_name = "cstudio-frontend-dev" # This is the Cloud Run service n
 firebase_site_id      = "dia-es-creative-studio-poc" # (Optional) Custom Firebase Hosting Site ID, defaults to the gcp_project_id
 
 # --- GitHub Repo Details ---
-github_conn_name   = "gh-repo-owner-con"
+github_conn_name   = "creative-studio-github-connection"
 github_repo_owner  = "jorgesandinm"
 github_repo_name   = "gcc-creative-studio"
 github_branch_name = "main"
@@ -24,12 +24,12 @@ be_env_vars = {
   }
   development = {
     ENVIRONMENT  = "development"
-    GOOGLE_TOKEN_AUDIENCE = "YOUR_OAUTH_WEB_CLIENT_ID_HERE"
+    GOOGLE_TOKEN_AUDIENCE = "545017040967-sp2u5s62seoks69guamsdcd63u42bb4v.apps.googleusercontent.com"
     IDENTITY_PLATFORM_ALLOWED_ORGS = "" # If empty then any org is allowed
   }
   production = {
     ENVIRONMENT  = "production"
-    GOOGLE_TOKEN_AUDIENCE = "YOUR_OAUTH_WEB_CLIENT_ID_HERE"
+    GOOGLE_TOKEN_AUDIENCE = "545017040967-sp2u5s62seoks69guamsdcd63u42bb4v.apps.googleusercontent.com"
     IDENTITY_PLATFORM_ALLOWED_ORGS = "" # If empty then any org is allowed
   }
 }
@@ -71,5 +71,4 @@ apis_to_enable = [
   "firestore.googleapis.com",
   "texttospeech.googleapis.com",
   "workflows.googleapis.com",
-]
 ]
