@@ -59,7 +59,7 @@
     "@types/jasmine": "~5.1.0",
     "@types/node": "^18.18.0",
     "@types/papaparse": "^5.5.2",
-    "firebase-tools": "^13.0.0",
+    "firebase-tools": "^13.31.0",
     "gts": "^6.0.2",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.0",
