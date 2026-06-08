@@ -250,7 +250,7 @@ def _process_audio_in_background(
 
                         elif request_dto.model in AudioService.MUSIC_MODELS:
                             client_options = {
-                                "api_endpoint": "us-central1-aiplatform.googleapis.com"
+                                "api_endpoint": "europe-southwest1-aiplatform.googleapis.com"
                             }
                             ai_client = (
                                 aiplatform.gapic.PredictionServiceClient(
